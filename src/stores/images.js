@@ -1,6 +1,7 @@
 import { defineStore } from "pinia";
 import { http } from "@/helper/services/http";
 import { ToastSuccess, ToastFailed } from '@/helper/services/toast'
+import axios from 'axios'
 
 export const useImageStore = defineStore('images', {
     state() {

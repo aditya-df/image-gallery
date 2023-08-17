@@ -57,9 +57,10 @@ const clearImage = () => {
   imagePreview.value = null
 }
 
-const submitImage = () => {
+const submitImage = async () => {
   if (imageFile.value) {
-    useImageStore().uploadImages(imageFile.value)
+    await useImageStore().uploadImages(imageFile.value)
+    clearImage()
   } else {
     ToastFailed.fire({
       icon: 'error',
