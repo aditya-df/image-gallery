@@ -1,35 +1,42 @@
-# image-gallery
+# image gallery
 
-This template should help get you started developing with Vue 3 in Vite.
+Project ini bisa dilihat di [github pages](https://github.com/aditya-df/image-gallery)
 
-## Recommended IDE Setup
+## Deskripsi
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Proyek ini adalah sebuah platform galeri gambar yang memungkinkan pengguna untuk mengunggah gambar pribadi mereka dan melihat galeri gambar milik sendiri. Platform ini dirancang untuk memberikan pengalaman yang intuitif dan interaktif bagi pengguna agar mereka dapat dengan mudah mengatur dan menikmati koleksi gambar pribadi mereka.
 
-## Customize configuration
+## Setup Lingkungan Lokal
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Ikuti langkah-langkah di bawah ini untuk melakukan setup lingkungan lokal proyek ini.
 
-## Project Setup
+1. Clone repositori ini ke dalam komputer Anda.
+2. Buka terminal dan navigasi ke direktori proyek.
+3. Jalankan perintah berikut untuk menginstal dependensi:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+4. Konfigurasi file `.env` dengan nilai-nilai yang diperlukan.
+5. Jalankan perintah berikut untuk memulai server lokal:
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+6. Buka browser dan akses `http://localhost:5173` secara default, untuk melihat proyek secara lokal.
+
+## Panduan Deploy
+
+Berikut adalah langkah-langkah untuk melakukan deploy proyek ini.
+
+1. Pastikan Anda memiliki akun hosting yang sesuai (contoh: Heroku, Netlify, Vercel, dsb.).
+2. Konfigurasi variabel lingkungan yang dibutuhkan pada platform hosting.
+3. Jalankan perintah berikut untuk membangun proyek untuk produksi:
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+4. Unggah berkas yang dihasilkan dari langkah sebelumnya ke platform hosting Anda.
